@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- Représente l'onglet en bas -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page en bas -->
+    <title>Cours HTML</title>
+    <!-- Logo de la page htlm 5 en bas -->
+    <link rel="shortcut icon" href="html 5 logo.png">
+</head>
+<!-- Représente le contenu de la page en bas-->
+<body>
+    <!-- header="Met en valeur le titre ou une introduction en haut d'une page" en bas -->
+    <header>
+        <!-- div="Matérialiser des petites parties" en bas -->
+        <div>
+            <!-- Titre de police le plus gros en bas -->
+            <!-- Info: À noter qu'il n'existe qu'1 SEUL [h1] afin de surligner le titre central de la page pour les naviguateurs en bas -->
+            <h1>Titre H1 et Texte</h1>
+            <!-- p="Paragraphe" en bas -->
+            <p>
+                Blablabla
+                <!-- br="Retour à la ligne" en bas -->
+                <br>
+                <!-- em="Italique" en bas -->
+                <em>En italique</em>
+                <br>
+                <!-- strong="En gras" en bas -->
+                <strong>EN GRAS </strong>
+                <br>
+                <!-- span="Regroupe texte ou autres éléments dans un bloc de contenu, peut appliquer effet de style CSS" en bas -->
+                Cet élément ne revient <span style="color:rgb(255, 00, 00)">pas</span> à la ligne
+            </p>
+        </div>
+    </header>
+    <!-- Contenu principal du <body> constitué de contenu en lien, ou qui étend le sujet principal du document ou de la fonctionnalité principale d'une application en bas -->
+    <main>
+        <div>
+            <h2>Titre H2 et Photo</h2>
+            <!-- img src="Photo à insérer sur la page"; alt="Idée de la photo si non voyant"; height="Dimension" en bas -->
+            <img src="Hawaw.png" alt="Youtubeur marocain" height="300">
+        </div>
+        <div>
+            <h3>Titre H3 et Listes</h3>
+            <!-- Enumération d'une liste DÉsordonné en bas -->
+            <ul>
+                <li>UL = unordered list1</li>
+                <li>UL = unordered list2</li>
+                <li>UL = unordered list3</li>
+            </ul>
+            <!-- Enumération d'une liste ORdonné en bas -->
+            <ol>
+                <li>OL = ordered list1</li>
+                <li>OL = ordered list2</li>
+                <li>OL = ordered list3</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Titre H4 et Tableaux</h4>
+            <!-- table="Tableau"; border="Encadrement des colones et de leur épaisseur"; width="Largeur (de l'espace donné sur la page?)" en bas -->
+            <table border="2" width="50%">
+                <!-- Caption="Légende" en bas -->
+                <caption>Mes jeux préférés</caption>
+                <!-- thead="En-tête" en bas -->
+                <thead>
+                    <!-- tr et th="Enoncer l'en-tête" en bas -->
+                    <tr>
+                        <th>Solo</th>
+                        <th>Multijoueurs</th>
+                    </tr>
+                </thead>
+                <!-- Corps du tableau en bas -->
+                <tbody>
+                    <!-- tr et td="Enoncer le corps" en bas -->
+                    <tr>
+                        <td>Shantae and the seven sirens</td>
+                        <td>Kirby's Adventure Wii</td>
+                    </tr>
+                    <tr>
+                        <td>Blaster Master 0</td>
+                        <td>Castle Crashers remake</td>
+                    </tr>
+                    <tr>
+                        <td>Xenon Valkyrie +</td>
+                        <td>SuperFighters</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5>Titre H5 et Liens</h5>
+            <ul>
+                <li>
+                    <!-- a (Anchor)="Ancre" en bas -->
+                    <a href="https://tutowebdesign.com/">Tutoriels pour apprendre à concevoir un site web</a>
+                </li>
+                <li>
+                    <!-- target + "_blank"="Permet d'ouvrir le lien sur un nouvel onglet" en bas -->
+                    <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet</a>
+                    +
+                    <a href="https://tutorialehtml.com/fr/" target="_blank">Trouver d'autres tutos pour coder l'HTML en fr</a>
+                </li>
+            </ul>
+            <span style="color:rgb(0, 4, 255)">&#10155</span> <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank">https://www.toptal.com/designers/htmlarrows/symbols/</a>
+        </div>
+        <div>
+            <!-- Titre le plus petit en bas -->
+            <h6>Titre H6 et Vidéo+Audio</h6>
+            <!-- video controls="Passeport du genre" en bas -->
+            <video controls height="300">
+                <source src="Cartoon - 107725.mp4" type="video/mp4">
+            </video>
+            <br>
+            <!-- audio controls="Passeport du genre" en bas -->
+            <audio controls>
+                <source src="tap_dance_practice-76560.mp3" type="audio/mp3">
+            </audio>
+            <br>
+            <!-- video src="Video à insérer sur la page"; autoplay loop="Vidéo tournée en boucle"; muted="Rendre muet la vidéo (encore plus quand c'est automatique)" en bas -->
+            <video src="Winter - 7941.mp4" autoplay loop muted height="300"></video>
+            <!-- Pour télécharger un élément sur une page= 1.Désigner le site correspondant par "a href" et 2.Désigner l'élément qui doit être télécharger par "download" en bas -->
+            <!-- Info:Pas encore au point :( en bas -->
+            <a href="file:///C:/Users/---/1.html.cours/index1.html" download="Winter - 7941.mp4">Download Alone Pingouin into thin air</a>
+            <p>
+            <em>Insérer le: nom utilisateur + lieu du dossier dans les 3 tirets depuis le code HTML pour que le téléchargement marche (fonctionne pour rester professionnel... Malgré moi :/)</em>
+            </p>
+        </div>
+    </main>
+    <br>
+    <!-- section="Matérialiser des grosses parties. Générique d'un document" en bas -->
+    <section>
+        <!-- Nouvelle section="h2" et non h1... Parce que il n'y a que 1 SEUL h1 par page -->
+        <h2>Titre H2 (encore) et Formulaire</h2>
+        <!-- form="Formulaire"; action="URL qui traite l'envoi du formulaire"; method="Utilise le HTTP pour envoyer les données au serveur"; post="Données du formulaire envoyées comme corps de la requête" en bas -->
+        <form action="/action.php" method="post">
+            <!-- label="Légende pour un objet d'une interface utilisateur"; for="Valeur pour être connecté à" en bas -->
+            <label for="nothing">Oublie le placeholder: </label>
+            <!-- input="Encadré dans lequel l'internaute peut écrire à sa guise (s'identifier)"; id="Valeur pour être relié à"; placeholder="Texte qui disparaîtra lorsque l'internaute intérargira dessus" en bas -->
+            <input id="nothing" type="text" placeholder="Magnifique placeholder">
+            <br>
+            <label for="grading">Note cette FABULEUSE page: </label>
+            <!-- min="Nombre minimum accepté"; max="Nombre maximum accepté"; step="Aller de combien de pas en choisissant les flèches pour le type=number"; value="Démarage du nombre par défaut dans le placeholder" en bas -->
+            <!-- Info:Mozilla Firefox permet d'écrire du texte sur un "type=number". Je ne sais pas pourquoi en bas -->
+            <input id="grading" type="number" placeholder="Pas - de 1M pls :(" min="999999" max="1000000000000000" step="6" value="1000000">
+            <br>
+            <label for="nutrition">Ton régime alimentaire: </label>
+            <!-- select="Input permetant de selectionner une liste spécifique"; option="Choix"; option selected="Démarage du choix par défault" en bas -->
+            <select id="nutrition">
+                <option value="herbivorous">Herbivore</option>
+                <option selected value="omnivorous">Omnivore</option>
+                <option value="carnivorous">Carnivore</option>
+            </select>
+            <br>
+            <p><strong>Quel est la mascotte de Konami?</strong></p>
+            <p>
+                <!-- radio="Permettant de créer un QCM en cercle; name="Permettant de choisir une seule bonne réponse dans la catégorie correspondante" en bas -->
+                Simon Belmont: <input type="radio" name="protagonist"><br>
+                Bomberman: <input type="radio" name="protagonist"><br>
+                Solid Snake: <input type="radio" name="protagonist"><br>
+                Harry Mason: <input type="radio" name="protagonist"><br>
+                Le créateur de cette page racontes n'importe quoi! <input type="radio" name="protagonist">
+            </p>
+            <br>
+            <p><strong>Comment trouves-tu la vie? Plusieurs réponses possible.</strong></p>
+            <p>
+                <!-- checkbox="Permettant de créer un QCM en carré; value="Valeur unique à l'élément correspondant parmis sa catégorie"; checked="Case cochée par défault" en bas -->
+                <label>La vie est belle: <input type="checkbox" name="life_opinion" value="love_life" checked></label><br>
+                <label>La vie est une -@!#: <input type="checkbox" name="life_opinion" value="fuck_this"></label><br>
+                <label>Je suis la personne la plus conne au monde: <input type="checkbox" name="life_opinion" value="i_am_stupid"></label><br>
+                <label>Le créateur de cette page est magnifique: <input type="checkbox" name="life_opinion" value="pretty_web_creator" checked></label><br>
+                <label>Enlève un doight (&#9996) au créateur de la page <input type="checkbox" name="life_opinion" value="fuck_web_creator"></label>
+            </p>
+            <br>
+            <!-- textarea="Encadré dans lequel l'internaute peut écrire à sa guise (s'exprimer)"; cols="Taille vers la Largeur"; rows="Taille vers la Hauteur" en bas -->
+            <textarea cols="75" rows="10" placeholder="NON MAIS OH! REMET CE QUE TU VIENS D'EFFACER LÀ! VIEUX FOU VA!">Exprime-toi, je t'en prie :)</textarea>
+            <br>
+            <!-- wrap + "off"="Laisse le texte en question sur une ligne simple continue"; readonly + "yes"="L'utilisateur n'est pas capable de changer la zone du texte en question" en bas -->
+            <textarea cols="60" rows="5" wrap="off" readonly="yes">JAMAIS TU POURRAS MODIFIER QUOI QUE CE SOIT IÇI! TU ME LIS!?</textarea>
+            <br><br>
+            <!-- submit="Bouton permettant d'envoyer les données du formulaire en question (proche de sa fermeture ex:</form>)" en bas -->
+            <input type="submit" value="Qui veut gagner des millions?">
+        </form>
+    </section>
+    <br>
+    <section>
+        <h3>Titre H3 (une nouvelle fois) et Mail</h3>
+        <!-- Représente des infos supplémentaires en bas -->
+        <footer>
+            <!-- mailto="Ouvre automatiquement une boîte mail et met l'adresse suivant que l'on veut contacter"; ?subject="Insert l'objet"; &body="Insert dans le texte?" en bas -->
+            <a href="mailto:v.nitor15@gmail.com?subject=Qui est cet alien?&body=Ecrit içi pour me causer si tu ne le sais toujours pas!" title="">Tu veux qu'on se tape? Vas-y, envoie moi un mail!</a>
+        </footer>
+    </section>
+</body>
+</html>
